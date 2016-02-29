@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER BitBuyIO <miner@bitbuy.io>
+MAINTAINER BitBuyIO <developer@bitbuy.io>
 LABEL description="runing minergate console in docker by http://bit.ly/docker-minergate"
 
 RUN apt-get update && \
