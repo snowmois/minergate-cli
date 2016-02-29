@@ -11,7 +11,7 @@ Start this image with the settings user and coin as parameters. Everything gets 
 ### Example
 
 ```shell
-docker run -d bitbuyio/minergate-cli -user miner@bitbuy.io -bcn
+docker run -d bitbuyio/minergate-cli -user miner@bitbuy.io
 ```
 
 See `minergate-cli --help` for more parameters.
