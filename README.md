@@ -1,6 +1,6 @@
 # minergate-cli
 
-# Dockerized minergate console (minergate-cli) for CryptoNote mining which supports Bytecoin, Monero, DigitalNote and related Cryptocoins.
+Dockerized minergate console (minergate-cli) for CryptoNote mining which supports Bytecoin, Monero, DigitalNote and related Cryptocoins.
 
 It dedicates for MinerGate Pool (http://bit.ly/docker-minergate) mining with ease on home computer.
 
