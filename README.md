@@ -15,3 +15,5 @@ docker run -d bitbuyio/minergate-cli -user miner@bitbuy.io
 ```
 
 See `minergate-cli --help` for more parameters.
+
+[![](https://badge.imagelayers.io/bitbuyio/minergate-cli:latest.svg)](https://imagelayers.io/?images=bitbuyio/minergate-cli:latest 'Get your own badge on imagelayers.io')
