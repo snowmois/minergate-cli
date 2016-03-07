@@ -6,12 +6,12 @@ It dedicates for MinerGate Pool (http://bit.ly/docker-minergate) mining with eas
 
 ## Usage
 
-Start this image with the settings user and coin as parameters. Everything gets passed to `minergate-cli`.
+Start this image with the settings user (-e user=mail@gmail.com) and coin (-e coin=-bcn) as parameters. Everything gets passed to `minergate-cli`.
 
-### Example
+### Quickstart Example
 
 ```shell
-docker run -d bitbuyio/minergate-cli -user miner@bitbuy.io
+docker run -d bitbuyio/minergate-cli
 ```
 
 See `minergate-cli --help` for more parameters.
