@@ -12,5 +12,4 @@ RUN wget https://minergate.com/download/deb-cli && \
 ENV USER miner@bitbuy.io
 ENV COIN -bcn
 
-ENTRYPOINT minergate-cli 
-CMD -user $USER $COIN
+ENTRYPOINT minergate-cli -user $USER $COIN
