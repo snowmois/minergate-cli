@@ -7,9 +7,6 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 RUN wget https://minergate.com/download/deb-cli && \
-    dpkg -i deb-cli
-    
-ENV USER snowmois2011@outlook.com
-ENV COIN -xmr
+    dpkg -i deb-cli    
 
-ENTRYPOINT minergate-cli -user $USER $COIN
+
